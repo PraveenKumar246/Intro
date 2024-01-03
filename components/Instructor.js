@@ -37,7 +37,7 @@ const Instructor = () => {
           <div className={styles.customList}>
             <div dangerouslySetInnerHTML={createMarkup(jsonData?.about_instructor.html_content)} />
             <div style={{minHeight:'15vh'}}></div>
-            <div style={{ display: 'flex', gap: '45%', alignItems: 'center' }}>
+            <div style={{ display: 'flex', justifyContent:'space-between', alignItems: 'center',paddingRight: '10%' }}>
               {socialMediaNames.map((platform) => (
                 <div key={platform} style={{ display: 'flex', alignItems: 'center' }}>
                   <img src={socialMediaIcons[platform]} alt={platform} width="20" height="20" style={{ marginRight: '5px' }} />
