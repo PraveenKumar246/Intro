@@ -3,6 +3,7 @@ import React from 'react';
 import jsonData from '../data.json';
 import styles from './Instructor.module.css';
 import Image from 'next/image';
+import profile from '../public/images/nityanand-profile.png'
 
 const Instructor = () => {
   const createMarkup = (htmlContent) => ({ __html: htmlContent });
@@ -26,7 +27,7 @@ const Instructor = () => {
           {/* Image column */}
           <div style={{ width: '50px', marginRight: '20px' }}>
             <Image
-              src="/images/nityanand-profile.svg" // Replace with the actual path to your image
+              src= {profile} // Replace with the actual path to your image
               alt="Instructor Avatar"
               width={50} // Adjust the width as needed
               height={50} // Adjust the height as needed

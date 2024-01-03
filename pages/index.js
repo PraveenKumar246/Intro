@@ -27,7 +27,7 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
-      <BackgroundImage imageUrl="/images/nityanand.svg">
+      <BackgroundImage imageUrl={"/images/nityanand.png"}>
         <div>
           <p>{jsonData?.instructor?.name}</p>
           <h1>{jsonData?.course?.title}</h1>

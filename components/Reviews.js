@@ -13,7 +13,7 @@ const Reviews = () => {
             {/* Image column */}
               <div>
                   <Image
-                      src="/images/review-img.svg" // Replace with the actual path to your image
+                      src="/images/reviewer-img.png" // Replace with the actual path to your image
                       alt="Instructor Avatar"
                       width={50}
                       height={50}
