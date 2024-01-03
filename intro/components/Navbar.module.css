@@ -1,0 +1,35 @@
+/* components/Navbar.module.css */
+.navbar {
+    display: flex;
+    /* justify-content: center; */
+    background: transparent; 
+    padding-left: 80px;
+    padding-top: 1%;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .navbar a {
+    color: black;
+    margin: 0 10px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+.navbar a:hover,
+.navbar .active {
+  position: relative;
+  text-decoration: underline;
+  font-weight: 500; 
+}
+
+.navbar .active::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -5px; /* Adjust the spacing as needed */
+    left: 0;
+    width: 100%;
+    border-bottom: 2px solid red; /* Adjust the underline height and color as needed */
+  }

@@ -1,0 +1,20 @@
+
+.customList {
+  margin-left: 30px;
+}
+
+.customListSection {
+    margin: 0;
+  }
+  
+  .customListSection h2 {
+    margin-bottom: 0;
+  }
+  
+  .avatarImage {
+    width: 90px; 
+    height: 90px;
+    margin-top: 10px;
+    border-radius: 50%;
+  }
+  

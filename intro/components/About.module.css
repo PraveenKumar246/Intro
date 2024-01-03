@@ -1,0 +1,29 @@
+
+.customList li {
+  list-style-type: none; 
+}
+
+.customList li::before {
+  content: '\2713'; 
+  display: inline-block;
+  width: 1em; 
+  margin-left: -1em; 
+  color: rgba(0, 0, 0, 0.808);
+}
+
+.customListSection {
+  margin: 0; 
+}
+
+.customListSection h2 {
+  margin-bottom: 0;
+}
+
+.customListSection div ul, .customListSection div ol{
+  margin: 0; 
+  padding-left: 18px;
+  padding-top: 10px;
+}
+.customListSection div ul li, .customListSection div ol li{ 
+  padding-top: 10px;
+}
