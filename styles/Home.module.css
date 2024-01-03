@@ -73,15 +73,16 @@
 /* styles.module.css */
 
 .registerButton {
-  background-color: #3498db;
+  background-color: #7553f1;
   color: #fff;
   padding: 10px 20px;
   font-size: 16px;
   border: none;
   width: 100%;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 25px;
   margin: 10px 0;
+  min-height: 7vh;
 }
 
 .registerButton:hover {

@@ -6,7 +6,7 @@ const BackgroundImage = ({ imageUrl, children }) => {
     width: '100%',
     height: '90vh',
     overflow: 'hidden',
-    backgroundImage: `linear-gradient(to right, rgba(169, 169, 169, 0.5), rgba(169, 169, 169, 0.2)), url(${imageUrl})`,
+    backgroundImage: `linear-gradient(to right, rgba(169, 169, 169,0.5), rgba(169, 169, 169, 0.3)), url(${imageUrl})`,
     backgroundSize: 'cover', 
   };
 

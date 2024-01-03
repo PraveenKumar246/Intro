@@ -68,7 +68,7 @@ export default function Home() {
                       <p>An active Whatsapp community</p>
                     </span>
                   : <></>}
-                   <button className={styles.registerButton}>Register Now</button>
+                   <button className={styles.registerButton}>Register today</button>
               </span>
         </div>
 
